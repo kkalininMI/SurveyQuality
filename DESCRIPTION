@@ -1,0 +1,19 @@
+Package: SurveyQuality
+Type: Package
+Title: Survey quality analysis  
+Version: 0.1.0
+Author: Kirill Kalinin
+Maintainer: The package maintainer <kkalinin@umich.edu>
+Description: The package designed to conduct survey quality analysis.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.1.0
+Imports:
+      dplyr,
+      lme4,
+      performance
+Suggests: 
+      testthat (>= 2.1.0),
+      knitr,
+      rmarkdown
+VignetteBuilder: knitr
